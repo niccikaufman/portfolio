@@ -11,9 +11,34 @@ background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox=
 .card {
   text-align: center;
   background-color: rgb(252, 246, 238);
+  /* padding: 15px; */
 }
 
 .container {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+a {
+  color: black;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 4px 4px;
+  margin: -5px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #0056b3;
+  text-decoration: none;
+  background-color: #e68434;
+  border-color: #dee2e6;
+  opacity: 50%;
 }
