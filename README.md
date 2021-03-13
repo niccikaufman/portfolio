@@ -23,7 +23,7 @@ _A portfolio of my recent coding work._
 
 ## Known Bugs
 
-* _The navbar does not have working links at this time._
+* _The navbar breaks when viewed on smaller screens._
 
 ## License
 
