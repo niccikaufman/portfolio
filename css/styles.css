@@ -1,6 +1,7 @@
 body {
 background-color: #709bab;
 background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d0fffd' fill-opacity='0.32'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+font-family: monospace;
 }
 
 .jumbotron {
@@ -10,6 +11,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox=
   padding-right: auto;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-right: 35%;
+  margin-left: 35%;
 }
 
 .card {
@@ -21,7 +24,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox=
   background-repeat: repeat;
   border-radius: 8px;  
 }
-
 
 .container md {
   padding-right: auto;
@@ -59,23 +61,20 @@ h2.title {
   color: #6b6b6b;
 }
 
-p.card-description {
+/* p.card-description {
   color: darkslategrey;
-}
+} */
 
 ul {
   list-style-type: none;
 }
 
-.card-footer {
+.card-header {
   padding: auto;
   margin: auto;
   background-color:whitesmoke;
   opacity: 90%;
-}
-
-.jumbo {
-  background-color: transparent;
+  font-size: larger;
 }
 
 .card-body {
@@ -84,4 +83,15 @@ ul {
   min-height: 1px;
   padding: 2rem;
   margin: -2rem;
+}
+
+.about-me-card {
+  text-align: center;
+  /* background-color: transparent; */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='Artboard-5' fill='%2300a4df' fill-opacity='0.22' fill-rule='nonzero'%3E%3Cpath d='M6 18h12V6H6v12zM4 4h16v16H4V4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  margin: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: auto;
+  font-size: larger;
 }
