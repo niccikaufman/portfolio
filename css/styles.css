@@ -31,8 +31,13 @@ img.jumbotron {
   margin-left: auto;
 }
 
-ul.navbar-nav {
-  font-size:11pt;
+a {
+  font-size: 13pt;
+  color: #e68434;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* image links */
