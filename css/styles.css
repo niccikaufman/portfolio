@@ -48,18 +48,14 @@ a:hover {
 .page-link {
   padding: 4px 8px;
   margin: auto;
-  background-color: #fff;
-  border: 1px dashed #ffffff;
+  background-color: transparent;
 }
 
 /* image link hover */
 .page-link:hover {
-  z-index: 2;
   color: #0056b3;
   text-decoration: none;
   background-color: #e68434;
-  border-color: #dee2e6;
-  opacity: 50%;
 }
 
 /* card background and border*/
@@ -75,11 +71,9 @@ a:hover {
 
 /* project card body */
 .card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
   min-height: 1px;
   padding: 2rem;
-  margin: -2rem;
+  margin: .1rem;
 }
 
 /* project card title */
