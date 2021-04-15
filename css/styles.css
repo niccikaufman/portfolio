@@ -13,8 +13,9 @@ color: rgb(33, 56, 56);
   text-align: center;
   padding-left: auto;
   padding-right: auto;
-  padding-top: 10px;
+  padding-top: 3px;
   padding-bottom: 10px;
+  margin-top: 10px;
   margin-right: 30%;
   margin-left: 30%;
   background-color: whitesmoke;
@@ -116,7 +117,7 @@ h2.title {
 }
 
 .nav {
-  position: fixed;
+  position: relative;
   z-index: 1;
   width: 100%;
 }
